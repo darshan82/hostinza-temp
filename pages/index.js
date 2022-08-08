@@ -8,6 +8,7 @@ import InfoBlogs from "../components/Home/InfoBlogs";
 import PricingPlans from "../components/Home/PricingPlans";
 // import SelectPlan from "../components/Home/SelectPlan";
 import WhyChooseUs from "../components/Home/WhyChooseUs";
+import DomainName from '../components/Home/DomainName';
 // import ServicesWeOffer from "../components/Home/ServicesWeOffer";
 // import OurCustomer from "../components/Home/OurCustomer";
 // import ExploreLocations from "../components/Home/ExploreLocations";
@@ -24,6 +25,7 @@ export default function Home() {
       <HomeHeroSection />
       <SearchDomain />
       <WhyChooseUs />
+      <DomainName />
       <PricingPlans />
       {/* <SelectPlan/> */}
       <FeaturesWeOffer />
