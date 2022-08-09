@@ -30,7 +30,7 @@ export default function DomainName() {
           </div>
         </div>
 
-        <div className="w-full flex justify-between items-center h-auto mt-4">
+        <div className="w-full flex justify-between items-center h-auto mt-8">
         <div className="w-[50%] border-box">
             <img
               className="rounded-md"

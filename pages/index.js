@@ -9,6 +9,7 @@ import PricingPlans from "../components/Home/PricingPlans";
 // import SelectPlan from "../components/Home/SelectPlan";
 import WhyChooseUs from "../components/Home/WhyChooseUs";
 import DomainName from '../components/Home/DomainName';
+import WebsiteDeployment from '../components/Home/websiteDeployment';
 // import ServicesWeOffer from "../components/Home/ServicesWeOffer";
 // import OurCustomer from "../components/Home/OurCustomer";
 // import ExploreLocations from "../components/Home/ExploreLocations";
@@ -26,6 +27,7 @@ export default function Home() {
       <SearchDomain />
       <WhyChooseUs />
       <DomainName />
+      <WebsiteDeployment />
       <PricingPlans />
       {/* <SelectPlan/> */}
       <FeaturesWeOffer />
