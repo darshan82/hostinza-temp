@@ -1,17 +1,6 @@
-import React, { useState } from "react";
-import Image from "next/image";
+import React from "react";
 import Link from "next/link";
-import react from "../../../public/images/react.svg";
 export default function () {
-  const [toggle, setToggle] = useState(false);
-  const handleChange = (e) => {
-    if (e.target.checked) {
-      setToggle(true);
-    } else {
-      setToggle(false);
-    }
-  };
-  console.log("toggled: ", toggle);
   return (
     <>
       <div className="w-full h-auto py-12 font-['Inter']">
