@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
-export default function () {
+export default function Settings() {
   const [toggle, setToggle] = useState(false);
   const handleChange = (e) => {
     if (e.target.checked) {
@@ -48,14 +48,14 @@ export default function () {
                       data-testid="geist-icon"
                       fill="none"
                       height="1em"
-                      shape-rendering="geometricPrecision"
+                      shapeRendering="geometricPrecision"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
                       viewBox="0 0 24 24"
                       width="1em"
-                      class="link_externalIcon__lLA3x"
+                      className="link_externalIcon__lLA3x"
                     >
                       <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
                       <path d="M15 3h6v6"></path>
@@ -102,11 +102,11 @@ export default function () {
                           data-testid="geist-icon"
                           fill="none"
                           height="18"
-                          shape-rendering="geometricPrecision"
+                          shapeRendering="geometricPrecision"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
                           viewBox="0 0 24 24"
                           width="18"
                         >
@@ -125,7 +125,7 @@ export default function () {
                         <h4 className="text-sm font-medium">OVERRIDE</h4>
                         <div className="">
                           <label
-                            for="toggleB"
+                            htmlFor="toggleB"
                             className="flex items-center cursor-pointer"
                           >
                             {/* toggle */}
@@ -167,11 +167,11 @@ export default function () {
                           data-testid="geist-icon"
                           fill="none"
                           height="18"
-                          shape-rendering="geometricPrecision"
+                          shapeRendering="geometricPrecision"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
                           viewBox="0 0 24 24"
                           width="18"
                         >
@@ -190,7 +190,7 @@ export default function () {
                         <h4 className="text-sm font-medium">OVERRIDE</h4>
                         <div className="">
                           <label
-                            for="toggleB"
+                            htmlFor="toggleB"
                             className="flex items-center cursor-pointer"
                           >
                             {/* toggle */}
@@ -232,11 +232,11 @@ export default function () {
                           data-testid="geist-icon"
                           fill="none"
                           height="18"
-                          shape-rendering="geometricPrecision"
+                          shapeRendering="geometricPrecision"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
                           viewBox="0 0 24 24"
                           width="18"
                         >
@@ -255,7 +255,7 @@ export default function () {
                         <h4 className="text-sm font-medium">OVERRIDE</h4>
                         <div className="">
                           <label
-                            for="toggleB"
+                            htmlFor="toggleB"
                             className="flex items-center cursor-pointer"
                           >
                             {/* toggle */}
@@ -297,11 +297,11 @@ export default function () {
                           data-testid="geist-icon"
                           fill="none"
                           height="18"
-                          shape-rendering="geometricPrecision"
+                          shapeRendering="geometricPrecision"
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="1.5"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="1.5"
                           viewBox="0 0 24 24"
                           width="18"
                         >
@@ -320,7 +320,7 @@ export default function () {
                         <h4 className="text-sm font-medium">OVERRIDE</h4>
                         <div className="">
                           <label
-                            for="toggleB"
+                            htmlFor="toggleB"
                             className="flex items-center cursor-pointer"
                           >
                             {/* toggle */}
@@ -367,14 +367,14 @@ export default function () {
                       data-testid="geist-icon"
                       fill="none"
                       height="1em"
-                      shape-rendering="geometricPrecision"
+                      shapeRendering="geometricPrecision"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
                       viewBox="0 0 24 24"
                       width="1em"
-                      class="link_externalIcon__lLA3x"
+                      className="link_externalIcon__lLA3x"
                     >
                       <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
                       <path d="M15 3h6v6"></path>
@@ -405,7 +405,7 @@ export default function () {
                   />
                   <div className="flex items-center gap-2">
                     <input type="checkbox" id="source" />
-                    <label for="source">
+                    <label htmlFor="source">
                       Include source files outside of the Root Directory in the
                     </label>
                     <p className="text-[#0073cf] flex gap-1 items-center">
@@ -414,14 +414,14 @@ export default function () {
                         data-testid="geist-icon"
                         fill="none"
                         height="1em"
-                        shape-rendering="geometricPrecision"
+                        shapeRendering="geometricPrecision"
                         stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="1.5"
                         viewBox="0 0 24 24"
                         width="1em"
-                        class="link_externalIcon__lLA3x"
+                        className="link_externalIcon__lLA3x"
                       >
                         <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
                         <path d="M15 3h6v6"></path>
@@ -440,14 +440,14 @@ export default function () {
                       data-testid="geist-icon"
                       fill="none"
                       height="1em"
-                      shape-rendering="geometricPrecision"
+                      shapeRendering="geometricPrecision"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
                       viewBox="0 0 24 24"
                       width="1em"
-                      class="link_externalIcon__lLA3x"
+                      className="link_externalIcon__lLA3x"
                     >
                       <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
                       <path d="M15 3h6v6"></path>
@@ -488,14 +488,14 @@ export default function () {
                       data-testid="geist-icon"
                       fill="none"
                       height="1em"
-                      shape-rendering="geometricPrecision"
+                      shapeRendering="geometricPrecision"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
                       viewBox="0 0 24 24"
                       width="1em"
-                      class="link_externalIcon__lLA3x"
+                      className="link_externalIcon__lLA3x"
                     >
                       <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
                       <path d="M15 3h6v6"></path>
@@ -527,11 +527,11 @@ export default function () {
                       data-testid="geist-icon"
                       fill="none"
                       height="22"
-                      shape-rendering="geometricPrecision"
+                      shapeRendering="geometricPrecision"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
                       viewBox="0 0 24 24"
                       width="22"
                     >
@@ -549,14 +549,14 @@ export default function () {
                       data-testid="geist-icon"
                       fill="none"
                       height="1em"
-                      shape-rendering="geometricPrecision"
+                      shapeRendering="geometricPrecision"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
                       viewBox="0 0 24 24"
                       width="1em"
-                      class="link_externalIcon__lLA3x"
+                      className="link_externalIcon__lLA3x"
                     >
                       <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
                       <path d="M15 3h6v6"></path>
@@ -587,14 +587,14 @@ export default function () {
                       data-testid="geist-icon"
                       fill="none"
                       height="1em"
-                      shape-rendering="geometricPrecision"
+                      shapeRendering="geometricPrecision"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
                       viewBox="0 0 24 24"
                       width="1em"
-                      class="link_externalIcon__lLA3x"
+                      className="link_externalIcon__lLA3x"
                     >
                       <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
                       <path d="M15 3h6v6"></path>

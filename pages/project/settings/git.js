@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-export default function () {
+export default function Git() {
   return (
     <>
       <div className="w-full h-auto py-12 font-['Inter']">
@@ -42,14 +42,14 @@ export default function () {
                             data-testid="geist-icon"
                             fill="none"
                             height="1em"
-                            shape-rendering="geometricPrecision"
+                            shapeRendering="geometricPrecision"
                             stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="1.5"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="1.5"
                             viewBox="0 0 24 24"
                             width="1em"
-                            class="link_externalIcon__lLA3x"
+                            className="link_externalIcon__lLA3x"
                           >
                             <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
                             <path d="M15 3h6v6"></path>
@@ -74,14 +74,14 @@ export default function () {
                       data-testid="geist-icon"
                       fill="none"
                       height="1em"
-                      shape-rendering="geometricPrecision"
+                      shapeRendering="geometricPrecision"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
                       viewBox="0 0 24 24"
                       width="1em"
-                      class="link_externalIcon__lLA3x"
+                      className="link_externalIcon__lLA3x"
                     >
                       <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
                       <path d="M15 3h6v6"></path>
@@ -123,14 +123,14 @@ export default function () {
                       data-testid="geist-icon"
                       fill="none"
                       height="1em"
-                      shape-rendering="geometricPrecision"
+                      shapeRendering="geometricPrecision"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
                       viewBox="0 0 24 24"
                       width="1em"
-                      class="link_externalIcon__lLA3x"
+                      className="link_externalIcon__lLA3x"
                     >
                       <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
                       <path d="M15 3h6v6"></path>
@@ -181,14 +181,14 @@ export default function () {
                       data-testid="geist-icon"
                       fill="none"
                       height="1em"
-                      shape-rendering="geometricPrecision"
+                      shapeRendering="geometricPrecision"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
                       viewBox="0 0 24 24"
                       width="1em"
-                      class="link_externalIcon__lLA3x"
+                      className="link_externalIcon__lLA3x"
                     >
                       <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
                       <path d="M15 3h6v6"></path>
@@ -237,14 +237,14 @@ export default function () {
                       data-testid="geist-icon"
                       fill="none"
                       height="1em"
-                      shape-rendering="geometricPrecision"
+                      shapeRendering="geometricPrecision"
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
                       viewBox="0 0 24 24"
                       width="1em"
-                      class="link_externalIcon__lLA3x"
+                      className="link_externalIcon__lLA3x"
                     >
                       <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
                       <path d="M15 3h6v6"></path>

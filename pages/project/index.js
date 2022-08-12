@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-export default function(){
+export default function Project(){
   return (
     <>
       <div className="w-full h-auto py-12 font-['Inter']">

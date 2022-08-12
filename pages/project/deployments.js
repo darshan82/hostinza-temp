@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-export default function () {
+export default function Deployment() {
   return (
     <>
       <div className="w-full h-auto py-12 font-['Inter']">
@@ -39,11 +39,11 @@ export default function () {
                     data-testid="geist-icon"
                     fill="none"
                     height="16"
-                    shape-rendering="geometricPrecision"
+                    shapeRendering="geometricPrecision"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
                     viewBox="0 0 24 24"
                     width="16"
                   >
@@ -61,6 +61,7 @@ export default function () {
                 <div className="relative">
                   <img
                     src="https://avatars.githubusercontent.com/akramnarejo?s=64"
+                    alt=""
                     className="w-8 rounded-full border"
                   />
                   <svg
@@ -83,11 +84,11 @@ export default function () {
                   data-testid="geist-icon"
                   fill="none"
                   height="18"
-                  shape-rendering="geometricPrecision"
+                  shapeRendering="geometricPrecision"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="1"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="1"
                   viewBox="0 0 24 24"
                   width="18"
                 >
