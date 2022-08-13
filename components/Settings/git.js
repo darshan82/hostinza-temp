@@ -3,15 +3,8 @@ import Link from "next/link";
 export default function Git() {
   return (
     <>
-      <div className="w-full h-auto py-12 font-['Inter']">
-        <div className="container w-full items-center mx-auto">
-          <div className="flex items-center justify-between py-12">
-            <h2 className="text-4xl font-bold">Project Settings</h2>
-          </div>
-          <div className="border-b border-gray-500"></div>
-
-          <div className="flex flex-col gap-8">
-            <div className="border border-gray-400 rounded-md mt-12">
+      <div className="flex flex-col gap-8 w-[70%] mt-12">
+            <div className="border border-gray-400 bg-gray-100 rounded-md">
               <div className="border-b p-8">
                 <h3 className="text-xl font-semibold">
                   Connected Git Repository
@@ -92,7 +85,7 @@ export default function Git() {
               </div>
             </div>
 
-            <div className="border border-gray-400 rounded-md">
+            <div className="border border-gray-400 bg-gray-100 rounded-md">
               <div className="border-b p-8">
                 <h3 className="text-xl font-semibold">Production Branch</h3>
                 <div className="flex flex-col gap-2 mt-4">
@@ -109,7 +102,7 @@ export default function Git() {
                       type="text"
                       placeholder="main"
                       defaultValue="master"
-                      className="border border-gray-400 rounded-md p-2 w-1/3"
+                      className="border border-gray-400 bg-gray-100 rounded-md p-2 w-1/3"
                     />
                   </div>
                 </div>
@@ -144,7 +137,7 @@ export default function Git() {
               </div>
             </div>
 
-            <div className="border border-gray-400 rounded-md">
+            <div className="border border-gray-400 bg-gray-100 rounded-md">
               <div className="border-b p-8">
                 <h3 className="text-xl font-semibold">Deploy Hooks</h3>
                 <div className="flex flex-col gap-2 mt-4">
@@ -160,12 +153,12 @@ export default function Git() {
                     <input
                       type="text"
                       placeholder="My Example Hook"
-                      className="border border-gray-400 rounded-md p-2 w-[50%]"
+                      className="border border-gray-400 bg-gray-100 rounded-md p-2 w-[50%]"
                     />
                     <input
                       type="text"
                       placeholder="main"
-                      className="border border-gray-400 rounded-md p-2 w-[20%]"
+                      className="border border-gray-400 bg-gray-100 rounded-md p-2 w-[20%]"
                     />
                     <button className="bg-gray-900 rounded text-center text-sm text-white h-[42px] w-[20%]">Create Hook</button>
                     </div>
@@ -202,7 +195,7 @@ export default function Git() {
               </div>
             </div>
 
-            <div className="border border-gray-400 rounded-md">
+            <div className="border border-gray-400 bg-gray-100 rounded-md">
               <div className="border-b p-8">
                 <h3 className="text-xl font-semibold">Ignored Build Step</h3>
                 <div className="flex flex-col gap-2 mt-4">
@@ -223,7 +216,7 @@ export default function Git() {
                     <input
                       type="text"
                       placeholder="git diff --quit HEAD^ HEAD ./"
-                      className="border border-gray-400 rounded-md p-2 w-1/3"
+                      className="border border-gray-400 bg-gray-100 rounded-md p-2 w-1/3"
                     />
                   </div>
                 </div>
@@ -258,8 +251,6 @@ export default function Git() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
     </>
   );
 }

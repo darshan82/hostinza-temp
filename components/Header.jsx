@@ -94,7 +94,7 @@ export default function Header() {
       {/* Navbar */}
       <div
         className={`w-full fixed  z-10 border-b-[0.5px] min-h-[12vh] border-gray-300 ${
-          scroll ? "bg-dark-blue mt-0" : `${router.pathname.startsWith('/integerations') ? 'bg-dark-blue' : 'bg-transparent'} -mt-10 md:mt-10`}`}
+          scroll ? "bg-dark-blue mt-0" : `${router.pathname.startsWith('/integerations') ? 'bg-dark-blue' : 'bg-dark-blue'} -mt-10 md:mt-10`}`}
       >
         <div className="container mx-auto w-full">
           <div className="flex justify-between align-middle w-full bg-black-1">

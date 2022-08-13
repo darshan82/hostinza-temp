@@ -1,9 +1,10 @@
 import React from "react";
 import Link from "next/link";
+import Layout from '../../components/Layout';
 export default function Project(){
   return (
     <>
-      <div className="w-full h-auto py-12 font-['Inter']">
+      <div className="w-full h-auto pt-28 font-['Inter']">
         <div className="container w-full items-center mx-auto">
           <div className="flex items-center justify-between py-12">
             <h2 className="text-4xl font-bold">Project Name</h2>
@@ -121,3 +122,5 @@ export default function Project(){
     </>
   );
 }
+
+Project.Layout = Layout
