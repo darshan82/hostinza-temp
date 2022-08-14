@@ -23,9 +23,9 @@ export default function DashboardHeader() {
   useEffect(() => {
     if (user && user.profile) {
       setUsername(user.profile.username);
-    console.log("user", user.profile);
+      console.log("user", user.profile);
     }
-  },[user]);
+  }, [user]);
 
   return (
     <div className="w-full bg-[#FFFFFF]">
@@ -91,7 +91,11 @@ export default function DashboardHeader() {
               active={false}
               path="/dashboard"
             />
-            <SubHeaderLink text="Activity" active={false} path="/dashboard" />
+            <SubHeaderLink 
+              text="Activity" 
+              active={route.pathname === '/dashboard/activity'} 
+              path="/dashboard/activity"
+            />
             <SubHeaderLink
               text="Domains"
               active={route.pathname === "/dashboard/domains"}

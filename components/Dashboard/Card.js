@@ -1,10 +1,11 @@
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Router from "next/router";
 
 export default function Card() {
   return (
-    <div className=" xs:w-[95%] w-[100%]  p-5 border-[1px] border-gray-300 rounded-md my-2 hover:scale-[1.02] hover:border-gray-600 cursor-pointer hover:shadow-md transition duration-200">
+    <div className=" xs:w-[95%] w-[100%]  p-5 border-[1px] border-gray-300 rounded-md my-2 hover:scale-[1.02] hover:border-gray-600 cursor-pointer hover:shadow-md transition duration-200" onClick={() => Router.push('/project')}>
       <div className="flex align-middle justify-between w-full">
         <div className="flex align-middle justify-center ">
           <div className="w-6 rounded-full homeHeroGradient h-6 mr-2 self-center"></div>
